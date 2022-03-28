@@ -1,0 +1,10 @@
+<apex:page standardController="Account">
+
+    <h1> Edit Account </h1>
+
+    <apex:form>
+        <apex:inputField value="{! Account.Name }"/>
+        <apex:commandButton action="{! Save }" value="Save" />
+    </apex:form>
+
+</apex:page>
